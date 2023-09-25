@@ -29,7 +29,6 @@ namespace AntDesign
         {
             _visible = false;
             StateHasChanged();
-            // Blocking DOM removal
             await Task.Delay(200);
 
             ImageRef.Close();
